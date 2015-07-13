@@ -1,0 +1,39 @@
+﻿生成启动时间为 2015/4/16 0:46:42。
+     1>项目“E:\WORK\git\littlerabbit\src\littlerabbit\SysMsg\SysMsg.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\SysMsg.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\SysMsg.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\SysMsg.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CpuMsg.cpp GetMsgInfo.cpp
+         GetMsgInfo.cpp
+     1>e:\work\git\littlerabbit\src\littlerabbit\sysmsg\getmsginfo.h(11): warning C4091: “typedef ”: 没有声明变量时忽略“PCMsg”的左侧
+     1>e:\work\git\littlerabbit\src\littlerabbit\sysmsg\getmsginfo.cpp(13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\work\git\littlerabbit\src\littlerabbit\sysmsg\getmsginfo.cpp(14): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\work\git\littlerabbit\src\littlerabbit\sysmsg\getmsginfo.cpp(15): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\work\git\littlerabbit\src\littlerabbit\sysmsg\getmsginfo.cpp(41): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\work\git\littlerabbit\src\littlerabbit\sysmsg\getmsginfo.cpp(69): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\work\git\littlerabbit\src\littlerabbit\sysmsg\getmsginfo.cpp(76): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+         CpuMsg.cpp
+     1>e:\work\git\littlerabbit\src\littlerabbit\sysmsg\cpumsg.cpp(1): warning C4627: “#include "CpuMsg.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“StdAfx.h”或重新生成预编译头
+         正在生成代码...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\WORK\git\littlerabbit\src\littlerabbit\Debug\SysMsg.lib" /NOLOGO Debug\CpuMsg.obj
+         Debug\GetMsgInfo.obj
+         Debug\stdafx.obj
+         SysMsg.vcxproj -> E:\WORK\git\littlerabbit\src\littlerabbit\Debug\SysMsg.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\SysMsg.unsuccessfulbuild”。
+         正在对“Debug\SysMsg.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\WORK\git\littlerabbit\src\littlerabbit\SysMsg\SysMsg.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.05
