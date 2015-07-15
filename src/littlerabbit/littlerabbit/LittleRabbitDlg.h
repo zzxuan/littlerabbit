@@ -3,6 +3,7 @@
 
 #pragma once
 
+
 //消息定义
 #define WM_NOTI (WM_USER+1)
 
@@ -24,8 +25,6 @@ public:
 protected:
 	HICON m_hIcon;
 
-	NOTIFYICONDATA m_NotifyIconData;
-
 	// 生成的消息映射函数
 	virtual BOOL OnInitDialog();
 	afx_msg void OnSysCommand(UINT nID, LPARAM lParam);
@@ -34,4 +33,14 @@ protected:
 	DECLARE_MESSAGE_MAP()
 
 	afx_msg void OnDestroy();
+	afx_msg void OnNcPaint();
+protected:
+	NOTIFYICONDATA m_NotifyIconData;//托盘图标
+	void NotifyIconInit();
+	void NotifyRealse();
+public:
+	afx_msg void OnBnClickedOk();
+	afx_msg void OnBnClickedCancel();
+
+	CString mcstr;
 };
